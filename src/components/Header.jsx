@@ -7,10 +7,10 @@ export default function Header({ page, setPage }) {
     <header className="header">
       <div className="header-inner">
         <div className="logo" onClick={() => setPage("shop")} style={{ cursor: "pointer" }}>
-          <span className="logo-leaf">🌿</span>
+          <span className="logo-icon">🌲</span>
           <div>
-            <div className="logo-name">Green Leaf Dispensary</div>
-            <div className="logo-tagline">Premium Cannabis Products</div>
+            <div className="logo-name">Pine State Provisions</div>
+            <div className="logo-tagline">Hemp Dispensary · Est. 2026</div>
           </div>
         </div>
         <nav className="header-nav">

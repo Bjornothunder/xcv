@@ -21,13 +21,24 @@ export default function ShopPage() {
 
   return (
     <main className="shop-page">
+      {/* Promo banner */}
+      <div className="promo-banner">
+        🌲 ACTIVE DEALS:
+        <span>420</span> $120 Top Shelf Oz ·
+        <span>MELTS</span> Buy 2 Rosins Save $10 ·
+        <span>EATS</span> 15% Off All Edibles
+      </div>
+
       {/* Hero */}
       <section className="hero">
-        <h1 className="hero-title">Welcome to Green Leaf</h1>
+        <div className="hero-badge">Hemp Dispensary</div>
+        <h1 className="hero-title">
+          <span>Pine State</span> Provisions
+        </h1>
         <p className="hero-sub">
-          Premium cannabis products — order online, pick up in store.
+          Premium hemp products — order online for pickup or delivery.
         </p>
-        <div className="age-notice">🔞 Must be 21+ to purchase. Valid ID required at pickup.</div>
+        <div className="age-notice">🔞 Must be 21+ to purchase. Valid ID required.</div>
       </section>
 
       {/* Featured */}
@@ -42,7 +53,7 @@ export default function ShopPage() {
         </section>
       )}
 
-      {/* Catalog */}
+      {/* Full catalog */}
       <section className="section">
         <h2 className="section-title">Shop All</h2>
         <div className="search-row">

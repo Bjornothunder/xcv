@@ -17,8 +17,9 @@ export default function App() {
         {page === "cart" && <CartPage setPage={setPage} />}
         {page === "checkout" && <CheckoutPage setPage={setPage} />}
         <footer className="footer">
-          <p>© 2026 Green Leaf Dispensary · For adults 21+ only · All rights reserved.</p>
-          <p className="footer-addr">420 Main Street, Suite 1 · Mon–Sat 10AM–8PM · (555) 420-0000</p>
+          <p className="footer-name">Pine State Provisions</p>
+          <p>© 2026 Pine State Provisions · Hemp Dispensary · For adults 21+ only</p>
+          <p className="footer-addr">Pinestatehemp.com · Mon–Sat 10AM–8PM</p>
         </footer>
       </div>
     </CartProvider>
